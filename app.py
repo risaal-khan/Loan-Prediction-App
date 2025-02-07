@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model
-model = joblib.load(r'PycharmProjects\Loan_Prediction\loan_model.pkl')
+model = joblib.load('loan_model.pkl')
 
 # Streamlit App Title
 st.set_page_config(page_title="Loan Approval Prediction", page_icon="🏦", layout="centered")
